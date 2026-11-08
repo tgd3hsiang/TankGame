@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Tank Battle with Enemy AI</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #151922;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 30px;
+        }
+
+        canvas {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tank Battle with Enemy AI</h1>
+
+    <canvas id="canvas" tabindex="-1"
+            oncontextmenu="event.preventDefault()">
+    </canvas>
+
+    <p>WASD: Move | Mouse: Aim | Click: Shoot | F1: Debug</p>
+
+    <script>
+        var Module = {
+            canvas: document.getElementById('canvas')
+        };
+
+        window.onerror = function(message) {
+            console.error(message);
+        };
+    </script>
+
+    <script async type="text/javascript" src="TankBattleAI.js"></script>
+</body>
+</html>
