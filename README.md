@@ -14,7 +14,7 @@ C++17 と raylib を使用して開発した、2D戦車対戦ゲームです。W
 
 ### Webブラウザ版
 
-**[▶ Play TankGame](https://tgd3hsianglin.github.io/TankGame/)**
+**[▶ Play TankGame](https://tgd3hsiang.github.io/TankGame/)**
 
 ## 🕹️ 操作方法
 
